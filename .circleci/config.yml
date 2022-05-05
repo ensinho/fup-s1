@@ -1,18 +1,13 @@
-cand1 = cand2 = cand3 = 0
-eleit = int(input("Quantos eleitores têm? "))
-if eleit > 0: 
-    print("--- UTILIZE 1,2,3 PARA CANDIDATOS 1,2,3 RESPECTIVAMENTE ---")
-    for i in range(eleit):
-        voto = int(input("Em qual quantidado irá votar? "))
-        if voto == 1:
-            cand1 += + 1
-        elif voto == 2:
-            cand2 += 1
-        elif voto == 3:
-            cand3 += + 1
-        else:
-            print("Número de candidato inválido!!")
-            exit()
-    print(" %d voto(s) para Candidato 1 // %d voto(s) para Candidato 2 // %d voto(s) para Candidato 3 " %(cand1,cand2,cand3))
-else:
-    print("Não tem eleitores, logo sem votos. ")
+while True:
+    a = int(input("Qual o primeiro número? "))
+    b = int(input("Qual o primeiro número? "))
+    if a > 0 and b > 0:
+        break
+print(a,b)
+
+'''a = int(input("Qual o primeiro número? "))
+b = int(input("Qual o primeiro número? "))
+while a <= 0 and b <= 0:
+    a = int(input("Qual o primeiro número? "))
+    b = int(input("Qual o primeiro número? "))
+print(a,b)'''
