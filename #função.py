@@ -61,6 +61,6 @@ troca = subst(frase1)
 print(troca)'''
 
 # programa principal frase-palavras
-frasal = input("Digite sua frase aqui chefia: ")
+'''frasal = input("Digite sua frase aqui chefia: ")
 frasel = contagem(frasal)
-print("A quantidade de palavras é de : ", frasel)
+print("A quantidade de palavras é de : ", frasel)'''
